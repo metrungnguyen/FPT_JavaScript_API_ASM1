@@ -31,7 +31,7 @@ function product() {
                             </div>
                             <h3>${property.title}</h3>
                             <div class="stars" id="starRating">
-                                <img class="icon" src="/icons/${floorNum(property.rating)}-star.svg" alt="star-rating">
+                                <img class="icon" src="${floorNum(property.rating)}-star.svg" alt="star-rating">
                             </div>
                             <p class="product-price">£${property.price}</p>
                             <p class="product-description">${property.description}</p>
